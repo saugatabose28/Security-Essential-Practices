@@ -1,0 +1,23 @@
+/*
+    The above logs indicate that the client is accessing the web server.  
+The breakdown of the above line is as follows:  
+• 10.0.2.15: Client IP address 
+• -: Identity of client machine 
+• -: Identity of client user 
+• [06/May/2022:16:12:15 +1000]: Time the request was received 
+• "GET /icons/ubuntu-logo.png HTTP/1.1": The request from the 
+client received 
+• 200: Status code sent to client 
+• 3623: Bytes sent to client 
+• "http://10.0.2.13/": Referred web page or site 
+• "Mozilla/5.0 (X11; Linux x86_64; rv:99.0) 
+Gecko/20100101 Firefox/99.0": Browser and OS information of 
+client agent
+*/
+10.0.2.15 - - [06/May/2022:16:12:15 +1000] "GET / HTTP/1.1" 200 3477 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:12:15 +1000] "GET /icons/ubuntu-logo.png HTTP/1.1" 200 3623 "http://10.0.2.13/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:12:15 +1000] "GET /favicon.ico HTTP/1.1" 404 487 "http://10.0.2.13/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:12:31 +1000] "GET /~joon HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:12:31 +1000] "GET /favicon.ico HTTP/1.1" 404 487 "http://10.0.2.13/~joon" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:14:18 +1000] "GET /*.txt HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"
+10.0.2.15 - - [06/May/2022:16:15:02 +1000] "GET /~james HTTP/1.1" 404 488 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:99.0) Gecko/20100101 Firefox/99.0"

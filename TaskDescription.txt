@@ -1,0 +1,36 @@
+Suppose that Alice sends a zip file that compresses her message to Bob. The 
+zip file is protected as it is locked with the password that Alice has chosen. Of 
+course, Alice does not want the password to be revealed to anyone. So, Alice 
+decides to encrypt the password (for the zip file) using a symmetric 
+encryption algorithm that takes six-digit PIN as input to create a secret 
+symmetric key and encrypt the password, (She believed that it was secure as 
+the length of the derived secret key was 256 bits.) and to send the resulting 
+ciphertext along with the protected zip file to Bob. Let us call the resulting 
+ciphertext “PWDCiphertext”. Since Alice told Bob what the six-digit PIN was 
+over the phone, Bob could decrypt the received PWDCiphertext and get the 
+password for unlocking the protected zip file to recover Alice’s message. 
+
+However, Charlie, the hacker, was able to capture PWDCiphertext and crack 
+the password to unlock the protected zip file! Now, Alice’s message to Bob is 
+at Charlie’s hand too. 
+• Your task   
+Your task is to write a Python program for Charlie to crack the password for 
+the protected zip file from PWDCiphertext. Once you have found the 
+password the protected zip file, unzip it and recover Alice’s message.  
+To complete the above task, three files are given in the assignment folder on 
+Moodle:  - - - 
+protected_file.zip:  This is the protected zip file that compresses 
+Alice’s message (to Bob) using the password Alice chose. 
+PWDCiphertext.text:  This is the ciphertext of the password. (In other 
+words, PWDCiphertext is created by encrypting the password for the 
+protected file.)   
+EncryptPWD.py:  This is the Python code for encrypting the password for 
+the protected file. Note that a 6-digit PIN is used as a symmetric key to 
+encrypt the password (for the protected file) in this encryption program.
+
+ modify the given code Q2_start.py to write your program. 
+After completing code,  rename it to Q2_answer.py. - - - - 
+The code should be able to output the found PIN (6 digit) and the 
+password for the protected file on screen.  
+
+program must be compliable using Python3.
