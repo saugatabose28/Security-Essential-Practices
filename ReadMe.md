@@ -88,7 +88,8 @@ Usage
 
 Clone the repository and navigate to the desired practice folder:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/Security-Essential-Practices.git  cd Security-Essential-Practices   `
+`git clone https://github.com/your-username/Security-Essential-Practices.git
+cd Security-Essential-Practices`
 
 Requirements
 ------------
@@ -100,14 +101,10 @@ Requirements
 
 Install dependencies using pip:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install cryptography   `
+`pip install cryptography`
 
 Author
 ------
 
 **Saugata Bose**
-
-License
--------
-
 This project is licensed under the MIT License - see the LICENSE file for details.
