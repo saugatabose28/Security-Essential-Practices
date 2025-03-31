@@ -1,72 +1,65 @@
-Security Essential Practices
-============================
-
 Overview
 --------
 
-This repository contains **practical exercises**, **programming examples**, and detailed tutorials on fundamental cybersecurity concepts. The content is designed to help users develop hands-on skills in cryptography, hashing, log file analysis, regular expressions, password management, encryption, and Python scripting.
+This repository contains practical experiments, programming exercises, and hands-on tutorials focused on essential cybersecurity principles and cryptographic techniques using Python. The experiments cover log file analysis, encryption/decryption, hashing, password cracking, regular expressions, and security best practices.
 
-Contents
---------
+Repository Contents
+-------------------
 
-### 1\. Log File Analysis
+### 1\. **Log File Analysis**
 
-*   Analyze log files using **Python**.
+*   Using **Python regular expressions** (re) to extract and analyze data from log files.
     
-*   Extract IP addresses, URLs, email addresses, and error codes using regex.
-    
-
-### 2\. Cryptography with Python
-
-*   Perform **symmetric encryption and decryption** using Python’s cryptography library.
-    
-*   Generate and manage encryption keys securely.
-    
-*   Convert hashes and data between different encoding formats (e.g., Hex, Base64).
+*   Practical demonstrations on identifying IP addresses, URLs, and specific error messages from logs.
     
 
-### 3\. Hashing and Password Security
+### 2\. **Symmetric Encryption and Decryption**
 
-*   Compute hashes (SHA-1, SHA-256, SHA-384, SHA-512, MD5) using Python's hashlib.
+*   Demonstration of symmetric encryption using Python's **Cryptography** library.
     
-*   Implement **salted password hashing**.
-    
-*   Crack hashed passwords by brute force to demonstrate vulnerabilities.
+*   Implementing secure message encryption and decryption with the Fernet class.
     
 
-### 4\. Password and PIN Encryption/Decryption
+### 3\. **Hashing and Password Security**
 
-*   Encrypt and decrypt sensitive data using user-provided PINs.
+*   Generating and analyzing hash values (MD5, SHA-1, SHA-256, SHA-384, SHA-512) using the Python hashlib module.
     
-*   Create robust PIN validation scripts.
-    
-
-### 5\. Regular Expressions (regex)
-
-*   Extract detailed information from complex log and text files.
-    
-*   Develop and test regex patterns using Python and online regex testers.
+*   Exercises to understand the implications of hashing in password storage.
     
 
-### 6\. Password Cracking and Permutation Generation
+### 4\. **Password Cracking Simulation**
 
-*   Generate permutations of strings for security testing.
+*   Building brute-force password cracking techniques using permutations and hashing functions.
     
-*   Measure brute-force password cracking performance.
+*   Practical understanding of hashing vulnerabilities and strength.
     
 
-Programming Languages & Tools Used
-----------------------------------
+### 5\. **Regular Expressions for Data Extraction**
 
-*   **Python:** Primary scripting language.
+*   Implementing advanced regex patterns to extract emails, URLs, and structured data.
     
-*   **Cryptography Library:** Encryption and decryption.
+*   Tutorials to strengthen data parsing and validation skills.
     
-*   **Hashlib:** Hashing algorithms (SHA family, MD5).
+
+### 6\. **Key Derivation and Verification**
+
+*   Practical exercises on deriving cryptographic keys from passwords using algorithms such as **Scrypt**.
     
-*   **Regular Expressions:** Text and log analysis.
+*   Verification of passwords using derived keys for secure authentication.
     
-*   **Pythex.org:** Regex testing and debugging.
+
+Technologies & Libraries Used
+-----------------------------
+
+*   **Python:** Core programming language.
+    
+*   **Cryptography:** Fernet encryption, symmetric key operations.
+    
+*   **Hashlib:** Implementation of various hashing algorithms.
+    
+*   **Regular Expressions (re module):** Pattern matching and data extraction.
+    
+*   **Pythex:** Tool for testing regular expressions.
     
 
 Key Learning Outcomes
@@ -74,38 +67,43 @@ Key Learning Outcomes
 
 By exploring this repository, users will:
 
-*   Master **practical security programming skills**.
+*   Gain hands-on experience in log file analysis and cybersecurity data extraction.
     
-*   Understand and apply encryption and hashing techniques.
+*   Understand symmetric encryption mechanisms and their practical applications.
     
-*   Efficiently analyze logs and extract critical information.
+*   Learn robust techniques for secure password storage and hashing.
     
-*   Strengthen knowledge of password protection, vulnerability assessment, and security testing practices.
+*   Develop practical insights into cryptographic key derivation and verification.
+    
+*   Improve expertise in applying regular expressions for security-related data analysis.
     
 
 Usage
 -----
 
-Clone the repository and navigate to the desired practice folder:
+Clone the repository:
 
-`git clone https://github.com/your-username/Security-Essential-Practices.git`
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/Security-Essential-Practices.git  cd Security-Essential-Practices   `
 
-`cd Security-Essential-Practices`
+Follow the instructions provided within individual Python scripts and notebooks.
 
 Requirements
 ------------
 
 *   Python 3.x
     
-*   Python Libraries: cryptography, hashlib, re
+*   Required Python libraries:
     
 
-Install dependencies using pip:
-
-`pip install cryptography`
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install cryptography hashlib   `
 
 Author
 ------
 
-**Saugata Bose**
-This project is licensed under the MIT License - see the LICENSE file for details.
+*   **Saugata Bose**
+    
+
+License
+-------
+
+This project is licensed under the MIT License – see the LICENSE file for details.
