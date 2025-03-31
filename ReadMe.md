@@ -83,7 +83,8 @@ Usage
 
 Clone the repository:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/your-username/Security-Essential-Practices.git  cd Security-Essential-Practices   `
+`git clone https://github.com/your-username/Security-Essential-Practices.git`
+`cd Security-Essential-Practices`
 
 Follow the instructions provided within individual Python scripts and notebooks.
 
@@ -95,7 +96,7 @@ Requirements
 *   Required Python libraries:
     
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install cryptography hashlib   `
+`pip install cryptography hashlib`
 
 Author
 ------
