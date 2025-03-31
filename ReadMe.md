@@ -88,8 +88,9 @@ Usage
 
 Clone the repository and navigate to the desired practice folder:
 
-`git clone https://github.com/your-username/Security-Essential-Practices.git
-cd Security-Essential-Practices`
+`git clone https://github.com/your-username/Security-Essential-Practices.git`
+
+`cd Security-Essential-Practices`
 
 Requirements
 ------------
